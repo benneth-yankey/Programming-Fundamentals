@@ -8,5 +8,5 @@ labelled `labN`, where `N` is the lab number.
 
 Labs have multiple exercises. The exercises are 
 labelled in the format `ex-[n]-[l]`, where 
-`[number]` is a number and `[l]` is a letter respectively.
+`[n]` is a number and `[l]` is a letter respectively.
 
