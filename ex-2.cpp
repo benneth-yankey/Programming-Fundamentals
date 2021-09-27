@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -32,9 +33,9 @@ int main() {
   int j {0437};
   int k {'a'};
 
-  cout << "0xf3f3 = " << i << endl;
-  cout << "0437 = " << j << endl;
-  cout << "'a' = " << k << endl;
+  cout << setw(6) << right << "0xf3f3" << "  " << setw(6) << left << i << endl;
+  cout << setw(6) << right << "0437" << "  " << setw(6) << left << j << endl;
+  cout << setw(6) << right << "'a'" << "  " << setw(6) << left << k << endl;
 
   return 0;
 }
