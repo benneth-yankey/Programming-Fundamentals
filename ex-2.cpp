@@ -16,8 +16,8 @@ int main() {
   // perform operations
 
   a = 5;             // assign 5 to integer
-  *b = ++(*b);       // increment integer through pointer
-  c = ++c;           // increment through reference
+  ++(*b);       // increment integer through pointer
+  ++c;           // increment through reference
 
   cout << "The value of integer is: " << a << endl << endl;   // 7
 
@@ -29,13 +29,9 @@ int main() {
 
   cout << "literals to decimal values: " << endl << endl;
 
-  int i {0xf3f3};
-  int j {0437};
-  int k {'a'};
-
-  cout << setw(6) << right << "0xf3f3" << "  " << setw(6) << left << i << endl;
-  cout << setw(6) << right << "0437" << "  " << setw(6) << left << j << endl;
-  cout << setw(6) << right << "'a'" << "  " << setw(6) << left << k << endl;
+  cout << setw(6) << right << "0xf3f3" << "  " << setw(6) << left << int(0xf3f3) << endl;
+  cout << setw(6) << right << "0437" << "  " << setw(6) << left << int(0437) << endl;
+  cout << setw(6) << right << "'a'" << "  " << setw(6) << left << int('a') << endl;
 
   return 0;
 }
