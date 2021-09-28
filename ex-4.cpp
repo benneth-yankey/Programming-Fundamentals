@@ -13,7 +13,7 @@ typedef string string_t[Array_Size];
 void printLargestSize(string_t words);
 
 int main() {
-    // declare an array using the type 'arr_str'
+    // declare an array using the type 'string_t'
     string_t words;
 
     // Read a maximum of 10 text from standard input
