@@ -1,3 +1,5 @@
+#include <iostream>
+
 int main() {
     // Rewrite the for-loop as equivalent while statement
 
@@ -8,9 +10,14 @@ int main() {
 
     // Answer
 
-    while (max_length-- > 0) {
+    int i{};
+
+    while (i < max_length) {
         if (input_line[i] == '?') ++count;
+        ++i;
     } 
 
     return 0;
 }
+
+
