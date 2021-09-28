@@ -16,8 +16,8 @@ int main() {
   // perform operations
 
   a = 5;             // assign 5 to integer
-  ++(*b);       // increment integer through pointer
-  ++c;           // increment through reference
+  ++(*b);            // increment integer through pointer
+  ++c;               // increment through reference
 
   cout << "The value of integer is: " << a << endl << endl;   // 7
 
